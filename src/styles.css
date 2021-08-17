@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fffffc;
+}
+
+.container {
+  height: 95vh;
+  width: 70vw;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  margin: 20px 0;
+}
+.header p {
+  margin-top: 10px;
+}
+
+.bill {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bill input {
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bill button {
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 45px;
+  background-color: #7209b7;
+  color: white;
+}
+
+.error {
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.notes_data {
+  margin-top: 20px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #7209b7;
+  color: white;
+}
